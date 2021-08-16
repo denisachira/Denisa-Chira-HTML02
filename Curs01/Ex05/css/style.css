@@ -33,4 +33,21 @@ ul a:visited {
   padding: 0px;
 }
 
+ol a {
+  text-decoration: none;
+}
+ol a:hover {
+  color: magenta;
+}
+ol a:active {
+  color: pink;
+}
+ol a:visited {
+  color: lightcoral;
+}
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=style.css.map */
