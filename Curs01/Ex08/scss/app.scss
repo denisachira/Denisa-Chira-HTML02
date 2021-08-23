@@ -1,0 +1,59 @@
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  //bug in pixeltab
+  margin: auto;
+}
+
+%square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
+
+.square-purple {
+  @extend %square;
+  background-color: purple;
+}
+
+.square-magenta {
+  @extend %square;
+  background-color: magenta;
+}
+
+.square-peru {
+  @extend %square;
+  background-color: peru;
+}
+
+.circles {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: brown;
+}
+
+.circle-red {
+  @extend .circle;
+  background-color: red;
+}
+
+.circle-green {
+  @extend .circle;
+  background-color: green;
+}
+
+.circle-blue {
+  @extend .circle;
+  background-color: blue;
+}

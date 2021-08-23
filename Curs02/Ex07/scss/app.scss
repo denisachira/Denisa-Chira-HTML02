@@ -3,3 +3,29 @@
   justify-content: space-between;
   margin: 16px 0;
 }
+
+$buttons: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $color in $buttons {
+  .btn-#{$name} {
+    color: $color;
+  }
+}
+
+@each $name, $color in $buttons {
+  .btn-bg-#{$name} {
+    background-color: $color;
+  }
+}
+
+@each $name, $color in $buttons {
+  .text-#{$name} {
+    color: $color;
+  }
+}
