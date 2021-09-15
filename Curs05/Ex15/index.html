@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Super Simple Website</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  >
+</head>
+
+<body>
+  <h1 class="mb-4">Super Simple Website</h1>
+  <div class="main-text">
+    <div class="main-text-title text-center">
+      <p>Welcome to our HTML website. </p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="row">
+    <section class="col-12 col-lg-6">
+      <h2 class="mb-4">Login to our website</h2>
+
+      <form action="">
+        <fieldset class="row">
+          <section class="col-12 col-lg-6">
+            <div class="d-flex justify-content-between mb-1">
+              <label
+                for="email"
+                class="email-label"
+              >*Email:</label>
+
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="contact"
+                required
+              >
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <label
+                for="password"
+                class="password-label"
+              >*Password:</label>
+
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="contact"
+                required
+              >
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="checkbox mt-2"
+                checked
+              >
+
+              <label
+                for="checkbox"
+                class="checkbox-label"
+              >Remember me?</label>
+            </div>
+          </section>
+        </fieldset>
+
+        <fieldset>
+          <button
+            class="btn btn-primary btn-lg"
+            title="Login"
+            type="reset"
+          >Login</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="col-12 col-lg-6">
+      <h2 class="mb-4">Or try these fancier places</h2>
+      <p>Note that links will open in new windows.</p>
+      <div class="connect d-flex flex-column">
+        <a
+          href="http://google.com"
+          target="_blank"
+          title="Google"
+          rel="noopener noreferrer"
+        >www.google.com</a>
+        <a
+          href="http://facebook.com"
+          target="_blank"
+          title="Facebook"
+          rel="noopener noreferrer"
+        >www.facebook.com</a>
+        <a
+          href="http://linkedin.com"
+          target="_blank"
+          title="Linkedin"
+          rel="noopener noreferrer"
+        >www.linkedin.com</a>
+      </div>
+
+    </section>
+  </div>
+</body>
+
+</html>
