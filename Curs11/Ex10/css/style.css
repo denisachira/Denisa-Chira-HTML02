@@ -15,15 +15,23 @@
 
 .grid-item-3 {
   background-color: lightgreen;
+  justify-self: end;
+  align-self: center;
 }
 
 .grid-item-4 {
-  background-color: lightsalmon
+  background-color: lightsalmon;
 }
 
 .grid-item-5 {
   background-color: lightseagreen;
+  justify-self: start;
+  align-self: end;
 }
 /* can't touch this 🔨 */
 
-
+.grid-container {
+  display: grid;
+  grid-template-columns: 120px 1fr 400px 2fr 250px 10px;
+  grid-template-rows: 150px;
+}
